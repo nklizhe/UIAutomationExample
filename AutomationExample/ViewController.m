@@ -1,0 +1,25 @@
+//
+//  ViewController.m
+//  AutomationExample
+//
+//  Created by Zhe Li on 3/2/15.
+//  Copyright (c) 2015 Zhe Li. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    // Do any additional setup after loading the view.
+}
+
+- (void)setRepresentedObject:(id)representedObject {
+    [super setRepresentedObject:representedObject];
+
+    // Update the view, if already loaded.
+}
+
+@end
