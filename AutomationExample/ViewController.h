@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property (nonatomic, strong) IBOutlet NSTextField *label1;
+@property (nonatomic, strong) IBOutlet NSTextField *label2;
+
+- (IBAction)buttonClicked:(id)sender;
 
 @end
 

@@ -22,4 +22,12 @@
     // Update the view, if already loaded.
 }
 
+- (IBAction)buttonClicked:(id)sender {
+    // swap text between labels
+    NSLog(@"button clicked!");
+    NSString *txt = [self.label1 stringValue];
+    [self.label1 setStringValue:[self.label2 stringValue]];
+    [self.label2 setStringValue:txt];
+}
+
 @end

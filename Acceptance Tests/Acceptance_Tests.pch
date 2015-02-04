@@ -1,0 +1,17 @@
+//
+//  Acceptance_Tests.pch
+//  AutomationExample
+//
+//  Created by Zhe Li on 3/2/15.
+//  Copyright (c) 2015 Zhe Li. All rights reserved.
+//
+
+#ifndef AutomationExample_Acceptance_Tests_pch
+#define AutomationExample_Acceptance_Tests_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Cocoa/Cocoa.h>
+#import <AppKitActor/AppKitActor.h>
+
+#endif
